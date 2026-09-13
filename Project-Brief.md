@@ -1,24 +1,25 @@
 # My Project Brief
 
-## The Question
+## Part 1: The Question
 
-Which residential areas in Ikeja, Lagos State are located more than 5 km from the nearest healthcare facility?
+Which wards in Agege Local Government Area, Lagos State are more than 5 km from a health facility?
 
-## Study Area
+## Part 2: Why It Matters
 
-Ikeja, Lagos State, Nigeria.
+Access to healthcare is important for every community. This project will help identify wards in Agege LGA where people may have limited geographic access to health facilities because of distance. The result could help show areas that may need better access to healthcare services.
 
-## Project Description
+## Part 3: The Data I Need
 
-This project aims to assess the geographic accessibility of healthcare facilities in residential areas of Ikeja, Lagos State. 
-It will identify residential areas located more than 5 km from the nearest healthcare facility using spatial data and GIS analysis.
+- Health facilities in and around Agege LGA
+- Ward boundaries for Agege LGA
+- Road network in Agege LGA
 
-## The Data I Need
+## Part 4: Where Each Dataset Comes From
 
-1. Residential/Built-up Areas in Ikeja — OpenStreetMap (OSM) — QuickOSM plugin in QGIS — https://www.openstreetmap.org/
+- Health facilities — GRID3 Data Hub — https://data.grid3.org/
+- Ward boundaries — GRID3 Data Hub — https://data.grid3.org/
+- Roads — OpenStreetMap through the QuickOSM plugin in QGIS — https://www.openstreetmap.org/
 
-2. Healthcare Facilities (Hospitals and Clinics) in Ikeja — OpenStreetMap (OSM) — QuickOSM plugin in QGIS — https://www.openstreetmap.org/
+## Part 5: What I Would Build
 
-3. Road Network in Ikeja — OpenStreetMap (OSM) — QuickOSM plugin in QGIS — https://www.openstreetmap.org/
-
-4. Administrative Boundary of Ikeja — OpenStreetMap data via GeoFabrik Nigeria — https://download.geofabrik.de/africa/nigeria.html
+I would build a map showing the wards in Agege LGA, the locations of health facilities, and the areas that are more than 5 km from a health facility. The map would make it easier to identify areas of Agege that may have limited geographic access to healthcare.
