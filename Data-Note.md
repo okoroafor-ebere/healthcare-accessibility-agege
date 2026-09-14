@@ -72,3 +72,27 @@ The `highway` field contains road classifications for the features. Several othe
 
 - **Data Quality Observations:**
 The dataset contains several NULL values, particularly in fields such as `residential`, `surface`, `natural`, `amenity`, `name`, and `type`. Although the data was obtained while querying residential land use, inspection of the resulting layer showed that not all 16 features are classified as residential in the `landuse` field. Other classifications such as industrial, forest, cemetery, grass and retail are also present.This means the dataset will require further filtering before residential areas are used in the analysis.
+
+
+## 4. Agege LGA Boundary
+
+**Dataset:** Agege Local Government Area Boundary
+
+**Source:** GRID3 Data Hub
+
+**Source Link:** https://data.grid3.org/
+
+**Number of Features:** 1
+
+**Geometry Type:** Polygon
+
+**Key Columns:**
+- `lganame` - name of the Local Government Area
+- `lgacode` - code assigned to the Local Government Area
+- `statename` - name of the state
+- `statecode` - code assigned to the state
+- `source` - source information for the boundary
+- `amapcode` - administrative area mapping code
+
+**Data Quality Observations:**
+The extracted Agege boundary contains one feature representing Agege Local Government Area in Lagos State.The key administrative fields inspected contain values, and no obvious missing values were observed in these fields. 
