@@ -48,3 +48,27 @@ Some records contain NULL or missing values in fields such as `nhfr_uid` and `nh
 
 - **Data Quality Observations:**
 The `highway` field contains road classifications for the features. Several other fields, including `construction`, `footway`,`tactile_paving`, `incline`, `tunnel`, `covered` and `alt_name`, contain many NULL values. But a NULL value does not necessarily mean that the road itself is missing from the dataset.
+
+
+## 3. Agege Residential/Land-Use Areas
+
+**Dataset:** OpenStreetMap Land-Use Data for Agege
+
+**Source:** OpenStreetMap (OSM) via QuickOSM plugin in QGIS
+
+**Source Link:** https://www.openstreetmap.org/
+
+**Number of Features:** 16
+
+**Geometry Type:** Polygon
+
+**Key Columns:**
+- `osm_id` - unique OpenStreetMap identifier for the feature
+- `osm_type` - type of OpenStreetMap object
+- `landuse` - land-use classification of the feature
+- `residential` - additional residential classification where available
+- `name` - name of the mapped area where available
+- `type` - type of OSM relation where applicable
+
+- **Data Quality Observations:**
+The dataset contains several NULL values, particularly in fields such as `residential`, `surface`, `natural`, `amenity`, `name`, and `type`. Although the data was obtained while querying residential land use, inspection of the resulting layer showed that not all 16 features are classified as residential in the `landuse` field. Other classifications such as industrial, forest, cemetery, grass and retail are also present.This means the dataset will require further filtering before residential areas are used in the analysis.
